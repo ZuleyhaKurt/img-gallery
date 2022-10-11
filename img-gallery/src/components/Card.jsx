@@ -6,12 +6,12 @@ const Card = ({item}) => {
     // console.log(large)
    
   return (
-      <div className='main'>
+      
           <div className='card'>
-              <img src={large} alt="" />
-              <a href={large} target="true" rel='noopener noreferrer'>{photographer}</a>
+              <a href={large}><img src={large} alt="" /></a>
+              <a  className='name'  href={large} target="true" rel='noopener noreferrer'>{photographer}</a>
         </div>
-      </div>
+      
   )
 }
 
